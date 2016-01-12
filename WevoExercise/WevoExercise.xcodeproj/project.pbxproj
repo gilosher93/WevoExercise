@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46277D291C4461A000C04ADC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46277D281C4461A000C04ADC /* AppDelegate.swift */; };
+		46277D2B1C4461A000C04ADC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46277D2A1C4461A000C04ADC /* ViewController.swift */; };
+		46277D2E1C4461A000C04ADC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46277D2C1C4461A000C04ADC /* Main.storyboard */; };
+		46277D301C4461A000C04ADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46277D2F1C4461A000C04ADC /* Assets.xcassets */; };
+		46277D331C4461A000C04ADC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46277D311C4461A000C04ADC /* LaunchScreen.storyboard */; };
+		46277D3E1C4461A000C04ADC /* WevoExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46277D3D1C4461A000C04ADC /* WevoExerciseTests.swift */; };
+		46277D491C4461A000C04ADC /* WevoExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46277D481C4461A000C04ADC /* WevoExerciseUITests.swift */; };
+		46277D7F1C4469DB00C04ADC /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46277D7C1C4469DB00C04ADC /* FBSDKCoreKit.framework */; };
+		46277D801C4469DB00C04ADC /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46277D7D1C4469DB00C04ADC /* FBSDKLoginKit.framework */; };
+		46277D811C4469DB00C04ADC /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46277D7E1C4469DB00C04ADC /* FBSDKShareKit.framework */; };
+		46277D831C446A8B00C04ADC /* FacebookLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46277D821C446A8B00C04ADC /* FacebookLoginVC.swift */; };
+		46277D851C44769700C04ADC /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46277D841C44769700C04ADC /* MainVC.swift */; };
+		46277D871C44772100C04ADC /* VerifyPhoneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46277D861C44772100C04ADC /* VerifyPhoneVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46277D3A1C4461A000C04ADC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46277D1D1C4461A000C04ADC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46277D241C4461A000C04ADC;
+			remoteInfo = WevoExercise;
+		};
+		46277D451C4461A000C04ADC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46277D1D1C4461A000C04ADC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46277D241C4461A000C04ADC;
+			remoteInfo = WevoExercise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46277D251C4461A000C04ADC /* WevoExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WevoExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46277D281C4461A000C04ADC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46277D2A1C4461A000C04ADC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46277D2D1C4461A000C04ADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46277D2F1C4461A000C04ADC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46277D321C4461A000C04ADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46277D341C4461A000C04ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46277D391C4461A000C04ADC /* WevoExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WevoExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46277D3D1C4461A000C04ADC /* WevoExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WevoExerciseTests.swift; sourceTree = "<group>"; };
+		46277D3F1C4461A000C04ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46277D441C4461A000C04ADC /* WevoExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WevoExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46277D481C4461A000C04ADC /* WevoExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WevoExerciseUITests.swift; sourceTree = "<group>"; };
+		46277D4A1C4461A000C04ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46277D7C1C4469DB00C04ADC /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		46277D7D1C4469DB00C04ADC /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		46277D7E1C4469DB00C04ADC /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		46277D821C446A8B00C04ADC /* FacebookLoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookLoginVC.swift; sourceTree = "<group>"; };
+		46277D841C44769700C04ADC /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		46277D861C44772100C04ADC /* VerifyPhoneVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyPhoneVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46277D221C4461A000C04ADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46277D7F1C4469DB00C04ADC /* FBSDKCoreKit.framework in Frameworks */,
+				46277D801C4469DB00C04ADC /* FBSDKLoginKit.framework in Frameworks */,
+				46277D811C4469DB00C04ADC /* FBSDKShareKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46277D361C4461A000C04ADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46277D411C4461A000C04ADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46277D1C1C4461A000C04ADC = {
+			isa = PBXGroup;
+			children = (
+				46277D7C1C4469DB00C04ADC /* FBSDKCoreKit.framework */,
+				46277D7D1C4469DB00C04ADC /* FBSDKLoginKit.framework */,
+				46277D7E1C4469DB00C04ADC /* FBSDKShareKit.framework */,
+				46277D271C4461A000C04ADC /* WevoExercise */,
+				46277D3C1C4461A000C04ADC /* WevoExerciseTests */,
+				46277D471C4461A000C04ADC /* WevoExerciseUITests */,
+				46277D261C4461A000C04ADC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46277D261C4461A000C04ADC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46277D251C4461A000C04ADC /* WevoExercise.app */,
+				46277D391C4461A000C04ADC /* WevoExerciseTests.xctest */,
+				46277D441C4461A000C04ADC /* WevoExerciseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46277D271C4461A000C04ADC /* WevoExercise */ = {
+			isa = PBXGroup;
+			children = (
+				46277D281C4461A000C04ADC /* AppDelegate.swift */,
+				46277D2A1C4461A000C04ADC /* ViewController.swift */,
+				46277D861C44772100C04ADC /* VerifyPhoneVC.swift */,
+				46277D821C446A8B00C04ADC /* FacebookLoginVC.swift */,
+				46277D841C44769700C04ADC /* MainVC.swift */,
+				46277D2C1C4461A000C04ADC /* Main.storyboard */,
+				46277D2F1C4461A000C04ADC /* Assets.xcassets */,
+				46277D311C4461A000C04ADC /* LaunchScreen.storyboard */,
+				46277D341C4461A000C04ADC /* Info.plist */,
+			);
+			path = WevoExercise;
+			sourceTree = "<group>";
+		};
+		46277D3C1C4461A000C04ADC /* WevoExerciseTests */ = {
+			isa = PBXGroup;
+			children = (
+				46277D3D1C4461A000C04ADC /* WevoExerciseTests.swift */,
+				46277D3F1C4461A000C04ADC /* Info.plist */,
+			);
+			path = WevoExerciseTests;
+			sourceTree = "<group>";
+		};
+		46277D471C4461A000C04ADC /* WevoExerciseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46277D481C4461A000C04ADC /* WevoExerciseUITests.swift */,
+				46277D4A1C4461A000C04ADC /* Info.plist */,
+			);
+			path = WevoExerciseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46277D241C4461A000C04ADC /* WevoExercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46277D4D1C4461A000C04ADC /* Build configuration list for PBXNativeTarget "WevoExercise" */;
+			buildPhases = (
+				46277D211C4461A000C04ADC /* Sources */,
+				46277D221C4461A000C04ADC /* Frameworks */,
+				46277D231C4461A000C04ADC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WevoExercise;
+			productName = WevoExercise;
+			productReference = 46277D251C4461A000C04ADC /* WevoExercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46277D381C4461A000C04ADC /* WevoExerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46277D501C4461A000C04ADC /* Build configuration list for PBXNativeTarget "WevoExerciseTests" */;
+			buildPhases = (
+				46277D351C4461A000C04ADC /* Sources */,
+				46277D361C4461A000C04ADC /* Frameworks */,
+				46277D371C4461A000C04ADC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46277D3B1C4461A000C04ADC /* PBXTargetDependency */,
+			);
+			name = WevoExerciseTests;
+			productName = WevoExerciseTests;
+			productReference = 46277D391C4461A000C04ADC /* WevoExerciseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46277D431C4461A000C04ADC /* WevoExerciseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46277D531C4461A000C04ADC /* Build configuration list for PBXNativeTarget "WevoExerciseUITests" */;
+			buildPhases = (
+				46277D401C4461A000C04ADC /* Sources */,
+				46277D411C4461A000C04ADC /* Frameworks */,
+				46277D421C4461A000C04ADC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46277D461C4461A000C04ADC /* PBXTargetDependency */,
+			);
+			name = WevoExerciseUITests;
+			productName = WevoExerciseUITests;
+			productReference = 46277D441C4461A000C04ADC /* WevoExerciseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46277D1D1C4461A000C04ADC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "gil osher";
+				TargetAttributes = {
+					46277D241C4461A000C04ADC = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3ZM8DXSR64;
+					};
+					46277D381C4461A000C04ADC = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3ZM8DXSR64;
+						TestTargetID = 46277D241C4461A000C04ADC;
+					};
+					46277D431C4461A000C04ADC = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3ZM8DXSR64;
+						TestTargetID = 46277D241C4461A000C04ADC;
+					};
+				};
+			};
+			buildConfigurationList = 46277D201C4461A000C04ADC /* Build configuration list for PBXProject "WevoExercise" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46277D1C1C4461A000C04ADC;
+			productRefGroup = 46277D261C4461A000C04ADC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46277D241C4461A000C04ADC /* WevoExercise */,
+				46277D381C4461A000C04ADC /* WevoExerciseTests */,
+				46277D431C4461A000C04ADC /* WevoExerciseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46277D231C4461A000C04ADC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46277D331C4461A000C04ADC /* LaunchScreen.storyboard in Resources */,
+				46277D301C4461A000C04ADC /* Assets.xcassets in Resources */,
+				46277D2E1C4461A000C04ADC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46277D371C4461A000C04ADC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46277D421C4461A000C04ADC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46277D211C4461A000C04ADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46277D831C446A8B00C04ADC /* FacebookLoginVC.swift in Sources */,
+				46277D851C44769700C04ADC /* MainVC.swift in Sources */,
+				46277D2B1C4461A000C04ADC /* ViewController.swift in Sources */,
+				46277D871C44772100C04ADC /* VerifyPhoneVC.swift in Sources */,
+				46277D291C4461A000C04ADC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46277D351C4461A000C04ADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46277D3E1C4461A000C04ADC /* WevoExerciseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46277D401C4461A000C04ADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46277D491C4461A000C04ADC /* WevoExerciseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46277D3B1C4461A000C04ADC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46277D241C4461A000C04ADC /* WevoExercise */;
+			targetProxy = 46277D3A1C4461A000C04ADC /* PBXContainerItemProxy */;
+		};
+		46277D461C4461A000C04ADC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46277D241C4461A000C04ADC /* WevoExercise */;
+			targetProxy = 46277D451C4461A000C04ADC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46277D2C1C4461A000C04ADC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46277D2D1C4461A000C04ADC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46277D311C4461A000C04ADC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46277D321C4461A000C04ADC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46277D4B1C4461A000C04ADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46277D4C1C4461A000C04ADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46277D4E1C4461A000C04ADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = WevoExercise/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = exercise.WevoExercise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46277D4F1C4461A000C04ADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "";
+				INFOPLIST_FILE = WevoExercise/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = exercise.WevoExercise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		46277D511C4461A000C04ADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WevoExerciseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = exercise.WevoExerciseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WevoExercise.app/WevoExercise";
+			};
+			name = Debug;
+		};
+		46277D521C4461A000C04ADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WevoExerciseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = exercise.WevoExerciseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WevoExercise.app/WevoExercise";
+			};
+			name = Release;
+		};
+		46277D541C4461A000C04ADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WevoExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = exercise.WevoExerciseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WevoExercise;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		46277D551C4461A000C04ADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WevoExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = exercise.WevoExerciseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WevoExercise;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46277D201C4461A000C04ADC /* Build configuration list for PBXProject "WevoExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46277D4B1C4461A000C04ADC /* Debug */,
+				46277D4C1C4461A000C04ADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46277D4D1C4461A000C04ADC /* Build configuration list for PBXNativeTarget "WevoExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46277D4E1C4461A000C04ADC /* Debug */,
+				46277D4F1C4461A000C04ADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46277D501C4461A000C04ADC /* Build configuration list for PBXNativeTarget "WevoExerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46277D511C4461A000C04ADC /* Debug */,
+				46277D521C4461A000C04ADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46277D531C4461A000C04ADC /* Build configuration list for PBXNativeTarget "WevoExerciseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46277D541C4461A000C04ADC /* Debug */,
+				46277D551C4461A000C04ADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46277D1D1C4461A000C04ADC /* Project object */;
+}
